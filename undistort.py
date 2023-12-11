@@ -363,27 +363,6 @@ class Application(tk.Frame):
     # -------------------------------------------------------------------------------
     # ボタンイベント（画像処理）
     # -------------------------------------------------------------------------------
-
-    def scl_k1_coefscroll(self,event=None):
-        '''th_binaryスケールがスクロールされたとき'''
-        if self.pil_image is None:
-            return
-        self.redraw_image()
-    def scl_k2_coefscroll(self,event=None):
-        '''th_binaryスケールがスクロールされたとき'''
-        if self.pil_image is None:
-            return
-        self.redraw_image()
-    def scl_k3_coefscroll(self,event=None):
-        '''th_binaryスケールがスクロールされたとき'''
-        if self.pil_image is None:
-            return
-        self.redraw_image()
-    def scl_k4_coefscroll(self,event=None):
-        '''th_binaryスケールがスクロールされたとき'''
-        if self.pil_image is None:
-            return
-        self.redraw_image()
     def btn_cal_click(self):
         if self.pil_image is None:
             return
