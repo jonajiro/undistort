@@ -1,12 +1,10 @@
 import tkinter as tk            # ウィンドウ作成用
 import tkinter.ttk as ttk
 from tkinter import filedialog  # ファイルを開くダイアログ用
-from PIL import Image, ImageTk, ImageDraw, ImageFont  # 画像データ用
+from PIL import Image, ImageTk  # 画像データ用
 import numpy as np              # アフィン変換行列演算用
 import os                       # ディレクトリ操作用
 import cv2
-from tkinter import messagebox
-import pandas as pd
 
 class Application(tk.Frame):
     def __init__(self, master=None):
